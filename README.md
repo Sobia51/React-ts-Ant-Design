@@ -1,4 +1,3 @@
-Grocery website using React Typescript with Ant-Design
 
 # Getting Started with Create React App
 
