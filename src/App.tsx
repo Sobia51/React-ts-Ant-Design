@@ -1,16 +1,34 @@
 import React from 'react';
-import header from './components/common/header';
+import "./App.css"; 
+import AppHeader from './components/common/header';
 import { Layout } from 'antd';
-const { Header, Footer, Sider, Content } = Layout;
+import { Route , Routes,BrowserRouter  as Router } from 'react-router-dom';
+import Home from  './components/pages/Home';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import Shop from './components/pages/Shop';
+const { Header, Footer, Content } = Layout;
 
 const App: React.FC = () => (
   <>
     <Layout>
-      <Header>
-        <header/>
+    
+        <Router>
+        <Header>
+        <AppHeader/>
       </Header>
-      <Content>Content</Content>
-      <Footer>Footer</Footer>
+      <Content>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/About' element={<About/>}/>
+          <Route path='/Shop' element={<Shop/>}/>
+          <Route path='/Shop' element={<Contact/>}/>
+          <Route path='/Shop' element={<Contact/>}/>
+        </Routes>
+      </Content>
+        </Router>
+       
+      <Footer></Footer>
     </Layout>
     
   </>
