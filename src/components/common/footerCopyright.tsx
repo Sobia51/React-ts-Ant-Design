@@ -2,7 +2,7 @@ import { BackTop } from 'antd';
 
 import payment from '../../assets/images/payment.png';
 
-function FooterCopyright() {
+const FooterCopyright:React.FC = ()=>{
   return(
     <div className="footerCopyright">
       <div className="container">

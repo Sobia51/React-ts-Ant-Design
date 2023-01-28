@@ -1,6 +1,6 @@
 import { Col, Row } from 'antd';
 import { Avatar, List, Tag } from 'antd';
-
+ type FooterProp={}
 const featured = [
   {
     image: require('../../assets/images/img-footer1.jpg'),
@@ -24,7 +24,7 @@ const data = [
  
 ];
 
-function FooterWidget() {
+function FooterWidget({}:FooterProp) {
   return (
     <div className='footerWidget'>
       <div className="container">

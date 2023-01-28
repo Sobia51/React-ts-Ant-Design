@@ -1,10 +1,10 @@
 import { Tabs } from 'antd';
 
 import aboutBanner from '../assets/images/aboutBanner.png';
-
+type AboutProps={}
 const { TabPane } = Tabs;
 
-function AppAbout() {
+function AppAbout ({}: AboutProps) {
   return (
     <div className="block aboutPage">
       <div className="container">

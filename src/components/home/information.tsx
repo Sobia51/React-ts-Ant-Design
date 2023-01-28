@@ -3,7 +3,7 @@ import { Col, Row } from 'antd';
 import bgImage1 from '../../assets/images/ad-img1.png';
 import bgImage2 from '../../assets/images/ad-img2.png';
 
-function Information() {
+const Information:React.FC =()=> {
   return (
     <div className="block informationBlock">
       <Row gutter={[24, 24]}>

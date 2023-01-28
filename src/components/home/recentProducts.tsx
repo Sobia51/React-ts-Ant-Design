@@ -1,5 +1,5 @@
 import { Col, Row, Button } from 'antd';
-
+type productProp={}
 const products = [
   {
     key: '1',
@@ -27,7 +27,7 @@ const products = [
   }
 ]
 
-function RecentProducts() {
+const RecentProducts:React.FC<productProp>=()=> {
   return (
     <div className="block products">
       <h1 style={{color:'#ca0245'}} >Recent Products</h1>

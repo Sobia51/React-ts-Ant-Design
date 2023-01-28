@@ -5,7 +5,7 @@ import ProductCategories from '../components/home/productCategories';
 import SaleProducts from '../components/home/saleProducts';
 
 
-function AppHome() {
+const AppHome:React.FC=()=> {
   return (
     <div className='container'>
       <Hero />

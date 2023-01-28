@@ -1,12 +1,9 @@
 import { Col, Row } from 'antd';
 import { Carousel } from 'antd';
 
-import image1 from '../../assets/images/bg1.jpg';
-import image2 from '../../assets/images/bg2.jpg';
 import image3 from '../../assets/images/bg3.jpg';
 import image4 from '../../assets/images/bg4.png';
-
-function Hero() {
+ const Hero : React.FC = () =>{
   return (
     <div className='heroBlock'>
       <Row gutter={[24, 24]}>

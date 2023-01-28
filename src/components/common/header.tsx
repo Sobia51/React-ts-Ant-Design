@@ -11,7 +11,9 @@ import {
 } from '@ant-design/icons';
 
 type AppHeaderProps = {}
-function AppHeader({}: AppHeaderProps){
+
+const AppHeader:React.FC<AppHeaderProps> = ()=>{
+  
   // const [visible, setVisible] = useState(false);
 
   //   const showDrawer = () => {

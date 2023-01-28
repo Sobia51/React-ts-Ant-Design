@@ -63,7 +63,7 @@ const productCategories = [
   }
 ]
 
-function ProductCategories() {
+const ProductCategories:React.FC=()=> {
   return (
     <div className="block productCategories">
       <h2 style={{color:'#ca0245'}}>Product Categories</h2>

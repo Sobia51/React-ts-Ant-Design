@@ -1,5 +1,5 @@
 import { Col, Row, Button } from 'antd';
-
+type saleprop={}
 const products = [
   {
     key: '1',
@@ -31,7 +31,7 @@ const products = [
   }
 ]
 
-function SaleProducts() {
+const SaleProducts:React.FC<saleprop>=()=> {
   return (
     <div className="block products separator">
       <h2 style={{color:'#ca0245'}}>Sale Products</h2>
