@@ -48,7 +48,7 @@ function AppHeader({}: AppHeaderProps){
                 <li><NavLink  to='/about'>About</NavLink></li>
                 <li><NavLink  to='/Shop'>Shop</NavLink></li>
                 <li><NavLink  to='/Contact'>Contact</NavLink></li>
-                <li><NavLink  to='/FAQ'>FAQ</NavLink></li>
+                <li><NavLink  to='/FAQ'>AppFAQ</NavLink></li>
               </ul>
             </nav>
             </div>
