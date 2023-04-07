@@ -14,7 +14,15 @@ type AppHeaderProps = {}
 
 const AppHeader:React.FC<AppHeaderProps> = ()=>{
   
+  // const [visible, setVisible] = useState(false);
 
+  //   const showDrawer = () => {
+  //     setVisible(true);
+  //   };
+  
+  //   const onClose = () => {
+  //     setVisible(false);
+  //   };
   return (
     <div className='container'>
     <div className='topBar'>
